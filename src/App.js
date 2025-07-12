@@ -3,7 +3,7 @@ import axios from 'axios';
 import QRCode from 'react-qr-code';
 import './App.css';
 
-const BACKEND_URL = 'http://localhost:5002';
+const BACKEND_URL = 'https://payment-app-backend-tkkm.onrender.com';
 
 function App() {
   const [amount, setAmount] = useState('');
